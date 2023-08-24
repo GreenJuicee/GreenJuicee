@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notícias Esportivas</title>
+    <style>
+        
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+        }
+        nav {
+            background-color: #444;
+            color: #fff;
+            text-align: center;
+            padding: 5px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+        section {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 10px;
+        }
+        h2 {
+            margin: 0;
+        }
+        
+    </style>
+</head>
+<body style="background-image: url();">
+    <header>
+        <h1>Notícias Esportivas</h1>  
+        <div class="divBusca">
+            <img src="search3.png" alt="Buscar..."/>
+            <input type="text" class="txtBusca" placeholder="Buscar..."/>
+            <button class="btnBusca">Buscar</button>
+          </div>
+    </header>
+    <nav>
+        <a href="index.html">Início</a>
+        <a href="futebol.html">Futebol</a>
+        <a href="basquete.html">Basquete</a>
+        <a href="tenis.html">Tênis</a>
+    </nav>
+    <section>
+        <article>
+            <h2>Zenit faz reuniões com staff de Pedro e acena com proposta de 25 milhões de euros ao Flamengo</h2>
+            <p>Atacante de 26 anos tem sido preterido por Sampaoli e nos últimos dois jogos não foi nem primeira opção de substituição para Gabigol</p>
+            <p><a href="#">Leia mais</a></p>
+        </article>
+        <article>
+            <h2>Título da Notícia 2</h2>
+            <p>Texto da notícia 2...</p>
+            <p><a href="#">Leia mais</a></p>
+        </article>
+        <!-- Adicione mais artigos conforme necessário -->
+    </section>
+</body>
+</html>
+--->
